@@ -44,6 +44,15 @@ quadratic function. Quadratic equations can be solved using the latter.
 ## Usage
 
 ```typescript
+import QuadraticFunction = require('@santi100a/quadratic-function'); // TypeScript
+const QuadraticFunction = require('@santi100a/quadratic-function'); // CommonJS
+import QuadraticFunction from '@santi100a/quadratic-function'; // ESM
+
+const fn = new QuadraticFunction(1, -1, -1);
+fn.evaluate(12); // => 131
+fn.evaluate(0); // => -1
+fn.vertex(); // => { x: 0.5, y: -1.25 }
+fn.roots(); // => [ (1 + sqrt(5)) / 2, (1 - sqrt(5)) / 2 ]
 ```
 ## Contribute
 
