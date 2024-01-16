@@ -35,7 +35,7 @@ quadratic function. Quadratic equations can be solved using the latter.
 
 ## API
 - `QuadraticFunction.vertex(): { x: number, y: number };` Returns an object containing the coordinates of the highest or lowest point the function will reach.
-- `QuadraticFunction.roots(): [number?, number?];` Returns an object containing the coordinates of the highest or lowest point the function will reach.
+- `QuadraticFunction.roots(): [number?, number?];` Calculates the real roots of the `QuadraticFunction`.
 - `QuadraticFunction.evaluate(x: number): number;` Evaluates the `QuadraticFunction` at `x`.
    | Name       |     Type    | Description        | Optional? | Default                                |
    |------------|-------------|--------------------|-----------|----------------------------------------|

@@ -5,3 +5,6 @@
 
 ## Version 0.0.2
 - Modified documentation.
+
+## Version 0.0.2
+- Refined documentation.
