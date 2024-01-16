@@ -1,5 +1,5 @@
 {
-  "name": "@author/package",
+  "name": "@santi100a/quadratic-function",
   "version": "0.0.1",
   "main": "cjs/index.js",
   "module": "index.js",
@@ -18,11 +18,11 @@
 		"remark-validate-links": "^12.1.1",
 		"typescript": "4.9.5"
 	},
-  "author": "",
-  "description": "",
-  "keywords": [],
+  "author": "santi100a <santyrojasprieto9+github@gmail.com>",
+  "description": "Santi's Quadratic Function Toolkit: A simple library for common tasks regarding quadratic functions.",
+  "keywords": ["santi100a", "math", "es3", "quadratic-equation", "quadratic-function"],
   "repository": {
-    "url": "https://github.com/<author>/<repo>",
+    "url": "https://github.com/santi100a/quadratic-function",
     "type": "git"
   },
   "scripts": {

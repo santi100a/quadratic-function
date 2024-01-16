@@ -42,16 +42,16 @@ and information you may want or need to know.
 [![License][license badge]][repo url]
 [![Bundlephobia stats][bundlephobia badge]][bundlephobia url]
 
-[workflow badge]: https://github.com/<author>/<repo>/actions/workflows/ci.yml/badge.svg
-[npm badge]: https://img.shields.io/npm/v/@<author>/<repo>
-[stars badge]: https://img.shields.io/github/stars/<author>/<repo>.svg
-[license badge]: https://img.shields.io/github/license/<author>/<repo>.svg
-[bundlephobia badge]: https://img.shields.io/bundlephobia/min/@<author>/<repo>
+[workflow badge]: https://github.com/santi100a/quadratic-function/actions/workflows/ci.yml/badge.svg
+[npm badge]: https://img.shields.io/npm/v/@santi100a/quadratic-function
+[stars badge]: https://img.shields.io/github/stars/santi100a/quadratic-function.svg
+[license badge]: https://img.shields.io/github/license/santi100a/quadratic-function.svg
+[bundlephobia badge]: https://img.shields.io/bundlephobia/min/@santi100a/quadratic-function
 
-[npm home]: https://npmjs.org/package/@<author>/<repo>
-[repo actions]: https://github.com/<author>/<repo>/actions
-[repo url]: https://github.com/<author>/<repo>
-[bundlephobia url]: https://bundlephobia.com/package/@<author>/<repo>@latest
+[npm home]: https://npmjs.org/package/@santi100a/quadratic-function
+[repo actions]: https://github.com/santi100a/quadratic-function/actions
+[repo url]: https://github.com/santi100a/quadratic-function
+[bundlephobia url]: https://bundlephobia.com/package/@santi100a/quadratic-function@latest
 -->
 
 <!-- Bullet points -->
@@ -69,9 +69,9 @@ and information you may want or need to know.
 <!-- ## Installation -->
 <!-- Installation steps and/or commands -->
 <!-- Example:
-- Via NPM: `npm install @<author>/<repo>`
-- Via Yarn: `yarn add @<author>/<repo>`
-- Via PNPM: `pnpm install @<author>/<repo>`
+- Via NPM: `npm install @santi100a/quadratic-function`
+- Via Yarn: `yarn add @santi100a/quadratic-function`
+- Via PNPM: `pnpm install @santi100a/quadratic-function`
 -->
 
 <!-- ## API -->
