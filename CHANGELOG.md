@@ -1,15 +1,7 @@
-<!-- # Changelog -->
+# Changelog
 
-<!-- 
-! This is very important.
-! Keep in mind the CI workflow is expecting this file to be structured as shown below
-! and to be in sync with the "version" field of your package.json.
-
-## Version <first version's tag>
+## Version 0.0.1
 - First version!
 
-## Version <next version>
-- <a feature introduced in this version>
-- <another feature>
-...
--->
+## Version 0.0.2
+- Modified documentation.

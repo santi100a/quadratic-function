@@ -1,41 +1,5 @@
-# Template for my NPM libraries
+# Santi's Quadratic Function Toolkit
 
-Hello, everyone! This is a template repo for my libraries.
-You'll find a readme template inside this file.
-
-In order for the CI workflow's publishing jobs to execute successfully, you must have two
-Actions secrets set up -- `NPM_AUTH_TOKEN` and `GPR_AUTH_TOKEN`.
-
-You might want to check the [YAML Actions workflow](.github/workflows/ci.yml) for hints
-and information you may want or need to know.
-
-## Template features
-
-- License (both template contents and code built from it): MIT.
-- Code of conduct: adapted from the Contributor Covenant.
-- Package manager: Yarn 1.22.19.
-- Automatic testing: Jest.
-- TypeScript 4.9.5 for built-in type definitions and support for compiling to ES3.
-- ESLint and Prettier.
-- Security policy and contribution guidelines.
-
-- Self-made scripts for verification of package.json and creation of an ESM wrapper
-  around TypeScript's CommonJS output to allow for usage within both CJS and ESM projects.
-
-## Your todos as a user of this template
-
-- [ ] Change all placeholders all over different files.
-- [ ] Fill this README template.
-
-<!-- START README TEMPLATE -->
-<!-- 
-* Make sure to replace ALL placeholders.
-! The readme will be broken otherwise!
--->
-
-<!-- # Library Name -->
-<!-- Badges -->
-<!-- Example: 
 [![Build Status][workflow badge]][repo actions]
 [![npm homepage][npm badge]][npm home]
 [![GitHub stars][stars badge]][repo url]
@@ -52,61 +16,36 @@ and information you may want or need to know.
 [repo actions]: https://github.com/santi100a/quadratic-function/actions
 [repo url]: https://github.com/santi100a/quadratic-function
 [bundlephobia url]: https://bundlephobia.com/package/@santi100a/quadratic-function@latest
--->
 
-<!-- Bullet points -->
-<!-- Example:
-- 🚀 Lightweight and fast[^](#disclaimers)
-- 👴 ES3-compliant[*](#disclaimers)
+- 🚀 Lightweight and fast
+- 👴 ES3-compliant
 - 💻 Portable between the browser and Node.js
--->
 
-<!-- ## What's this? -->
-<!-- Description -->
 
-<!-- Mentions, inspirations -->
+## What's this?
 
-<!-- ## Installation -->
-<!-- Installation steps and/or commands -->
-<!-- Example:
+This is a small library that allows you to calculate things like the vertex or roots of a
+quadratic function. Quadratic equations can be solved using the latter.
+
+## Installation
+
 - Via NPM: `npm install @santi100a/quadratic-function`
 - Via Yarn: `yarn add @santi100a/quadratic-function`
 - Via PNPM: `pnpm install @santi100a/quadratic-function`
--->
 
-<!-- ## API -->
-<!--
-* If a class/function/variable is deprecated, you must cross it out by wrapping the 
-* `<class/function/variable prototype/definition/type def>;` with tildes, like this:
-* ~~`<class/function/variable prototype/definition/type def>;`~~ (deprecated [since <version>])
-
-- `<class/function/variable prototype/definition/type def>;` ([since <version if not first version>]) ([deprecated [since <version>]]) <description>
+## API
+- `QuadraticFunction.vertex(): { x: number, y: number };` Returns an object containing the coordinates of the highest or lowest point the function will reach.
+- `QuadraticFunction.roots(): [number?, number?];` Returns an object containing the coordinates of the highest or lowest point the function will reach.
+- `QuadraticFunction.evaluate(x: number): number;` Evaluates the `QuadraticFunction` at `x`.
    | Name       |     Type    | Description        | Optional? | Default                                |
    |------------|-------------|--------------------|-----------|----------------------------------------|
-   |<param name>|<param type> |<param description> | <Yes/No>  | <N/A if not optional, else the default>|
-- ...
--->
+   |`x`|`number`|The value at which to evaluate the function.|Yes | _N/A_|
 
-<!-- ## Usage -->
-<!-- Usage examples (code snippets) -->
-<!-- 
-Usage examples go here
-* This is a very important step.
+## Usage
+
 ```typescript
 ```
--->
-<!-- ## Contribute -->
+## Contribute
 
-<!-- Contribution hints and basic instructions -->
-<!-- Example:
-Wanna contribute? [File an issue](issues) or [pull request](pulls)! 
+Wanna contribute? [File an issue](https://github.com/santi100a/quadratic-function/issues) or [pull request](https://github.com/santi100a/quadratic-function/pulls)! 
 Look at [the contribution instructions](CONTRIBUTING.md) and make sure you follow the [contribution Code of Conduct](CODE_OF_CONDUCT.md).
--->
-
-<!-- ## Disclaimers -->
-<!-- Any disclaimers you may need. -->
-<!--
-**Hasn't been tested in an actual ES3 environment. Feel free to open an issue or pull request if you find any non-ES3 thing. See "Contribute" for instructions on how to do so.*
-
-*^The source code is just a few kilobytes in size.*
--->
